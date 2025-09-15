@@ -2,12 +2,12 @@ import './App.css'
 
 function App() {
   const images = [
-    'https://images.unsplash.com/photo-1514511547113-1be72277b32e?q=80&w=1200&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1549068106-b024baf5062d?q=80&w=1200&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1516570161787-2fd917215a3d?q=80&w=1200&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=1200&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=1200&auto=format&fit=crop',
+    '/galary/IMG_8024.jpg',
+    '/galary/IMG_8026.jpg',
+    '/galary/IMG_8024.jpg', // дублируем для заполнения галереи
+    '/galary/IMG_8026.jpg',
+    '/galary/IMG_8024.jpg',
+    '/galary/IMG_8026.jpg',
   ]
 
   return (
