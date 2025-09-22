@@ -86,10 +86,123 @@
   transform: scale(1.03);
 }
 
+.button-link {
+  display: inline-block;
+  padding: 10px 16px;
+  background: #111;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.button-row {
+  display: inline-flex;
+  gap: 10px;
+}
+
 .footer {
   margin-top: auto;
   padding: 24px 0;
   border-top: 1px solid #e7e7e7;
+}
+
+.footer-columns {
+  align-items: start;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+}
+
+.footer .brand.small {
+  margin-bottom: 6px;
+}
+
+.footer .contacts div {
+  margin: 2px 0;
+}
+
+.link {
+  color: #111;
+  text-decoration: underline;
+}
+
+.link:hover {
+  opacity: 0.8;
+}
+
+.vk-link {
+  color: #1f6feb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.vk-link:hover {
+  color: #0f4aa3;
+}
+
+@media (max-width: 600px) {
+  .footer-col { text-align: center; }
+}
+
+/* Content typography for inner pages */
+.content {
+  padding: 0 20px;
+}
+
+.content h2 {
+  margin: 24px 0 8px;
+  font-size: 22px;
+}
+
+.muted {
+  color: #6b7280;
+}
+
+.note {
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  padding: 12px 14px;
+  border-radius: 8px;
+}
+
+.list {
+  margin: 8px 0 16px;
+  padding-left: 18px;
+}
+
+.list li { 
+  margin: 6px 0;
+}
+
+.steps {
+  counter-reset: step;
+  list-style: none;
+  padding-left: 0;
+}
+
+.steps li {
+  position: relative;
+  margin: 10px 0 10px 36px;
+}
+
+.steps li::before {
+  counter-increment: step;
+  content: counter(step);
+  position: absolute;
+  left: -36px;
+  top: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: #111;
+  color: #fff;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-columns {
