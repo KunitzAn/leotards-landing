@@ -2,12 +2,17 @@ import './App.css'
 
 function App() {
   const images = [
+    'galary/IMG_0145.HEIC',
+    'galary/IMG_3724.HEIC',
+    'galary/IMG_3893.JPG',
+    'galary/IMG_3895.JPG',
+    'galary/IMG_4425.PNG',
+    'galary/IMG_4483.PNG',
+    'galary/IMG_4484.PNG',
+    'galary/IMG_4492.PNG',
     'galary/IMG_8024.jpg',
     'galary/IMG_8026.jpg',
-    'galary/IMG_8024.jpg', // дублируем для заполнения галереи
-    'galary/IMG_8026.jpg',
-    'galary/IMG_8024.jpg',
-    'galary/IMG_8026.jpg',
+    'galary/IMG_9618.HEIC',
   ]
 
   return (
