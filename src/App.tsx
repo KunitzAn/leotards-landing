@@ -50,8 +50,8 @@ function HomePage() {
           <div className="footer-columns">
             <div className="footer-col">
               <div className="ip">ИП Куницкая Татьяна</div>
-              <div className="ogrnip">ОГРНИП: —</div>
-              <div className="inn">ИНН: —</div>
+              <div className="ogrnip">ОГРНИП: 325710000058139</div>
+              <div className="inn">ИНН: 710700402367</div>
             </div>
             <div className="footer-col">
               <div className="contacts">
@@ -129,8 +129,8 @@ function ProcessPage() {
           <div className="footer-columns">
             <div className="footer-col">
               <div className="ip">ИП Куницкая Татьяна</div>
-              <div className="ogrnip">ОГРНИП: —</div>
-              <div className="inn">ИНН: —</div>
+              <div className="ogrnip">ОГРНИП: 325710000058139</div>
+              <div className="inn">ИНН: 710700402367</div>
             </div>
             <div className="footer-col">
               <div className="contacts">
@@ -199,8 +199,8 @@ function CarePage() {
           <div className="footer-columns">
             <div className="footer-col">
               <div className="ip">ИП Куницкая Татьяна</div>
-              <div className="ogrnip">ОГРНИП: —</div>
-              <div className="inn">ИНН: —</div>
+              <div className="ogrnip">ОГРНИП: 325710000058139</div>
+              <div className="inn">ИНН: 710700402367</div>
             </div>
             <div className="footer-col">
               <div className="contacts">
